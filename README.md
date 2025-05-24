@@ -35,17 +35,6 @@ cp .env.example .env
 
 2. Update `.env` with your actual Appwrite credentials:
 
-```bash
-# Open .env and replace the placeholder values with your actual Appwrite config
-EXPO_PUBLIC_APPWRITE_ENDPOINT=your_appwrite_endpoint
-EXPO_PUBLIC_APPWRITE_PLATFORM=your_platform_id
-EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
-EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
-EXPO_PUBLIC_APPWRITE_USER_COLLECTION_ID=your_user_collection_id
-EXPO_PUBLIC_APPWRITE_VIDEO_COLLECTION_ID=your_video_collection_id
-EXPO_PUBLIC_APPWRITE_STORAGE_ID=your_storage_id
-```
-
 ### 3. Start the Development Server
 
 ```bash
@@ -58,7 +47,6 @@ Open the Expo Go app on your phone and scan the QR code to view the project.
 
 - **Environment Variables:** All Appwrite credentials are stored in environment variables for security
 - **Template File:** Use `.env.example` as a reference for required environment variables
-- **Security:** The `.env` file is git-ignored to prevent credential exposure
 
 ## 🙏 Acknowledgments
 
